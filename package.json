@@ -1,0 +1,25 @@
+{
+  "name": "revisaodecodigo",
+  "version": "1.0.0",
+  "description": "Aplicação que facilita a revisão de código para desenvolvedores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "tsc && probot run ./lib/index.js"
+  },
+  "author": "Davi de Barros",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "probot": "^13.3.8",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.1",
+    "@types/uuid": "^10.0.0",
+    "nock": "^13.5.5",
+    "smee-client": "^2.0.3",
+    "typescript": "^5.6.2"
+  }
+}

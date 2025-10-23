@@ -4,4 +4,6 @@ npm-debug.log
 !mock-cert.pem.env
 coverage
 lib
-.env
+config.bat
+temp_auto_push.bat
+temp_interactive_push.bat
